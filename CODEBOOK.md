@@ -17,8 +17,8 @@ Originally 561 measurements were taken (called 'features'). Only features that h
 ## Variables
 * subjectId: uniquely identifies 1...30 subjects.
 * activityId: uniquely identifies 1...6 activities.
-* activity: a factor with it's corresponding activityId, gives a description of what the activity is
-* tBodyAccmeanX, tBodyAccmeanY, ... , fBodyBodyGyroJerkMagstd: 66 averaged (across samples) of mean and std measurements taken from accelerometers of the subjects doing each activity.
+* activity: a factor with it's corresponding activityId, gives a description of what the activity is (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING.
+* tBodyAccmeanX, tBodyAccmeanY, ... , fBodyBodyGyroJerkMagstd: 66 averaged (across samples) of mean and std measurements taken from accelerometers (Samsung Galaxy S II) of the subjects doing each activity. Features already normalized around [-1,1]. The names of the measurements can be originally seen in features_info.txt in the source data.
 
 ## Contact
 Please email eric at eric.khc@gmail.com for questions regarding this data or code.
